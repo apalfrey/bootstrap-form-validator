@@ -9,7 +9,7 @@
     "minify": "uglifyjs dist/bootstrap-form-validator.js -c pure_funcs=['console.log','console.group','console.groupCollapsed','console.groupEnd'] --comments /^!/ -m -o dist/bootstrap-form-validator.min.js"
   },
   "author": "apalfrey & luc122c",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "cpy-cli": "^2.0.0",
     "npm-run-all": "^4.1.3",
