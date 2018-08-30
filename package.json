@@ -4,10 +4,9 @@
   "description": "jQuery-based form validator for Bootstrap 3 and 4",
   "main": "dist/bootstrap-form-validator.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "npm-run-all move minify",
     "move": "cpy src/*.js dist",
-    "minify": "uglifyjs dist/bootstrap-form-validator.js -c drop_console --comments /^!/ -m -o dist/bootstrap-form-validator.min.js"
+    "minify": "uglifyjs dist/bootstrap-form-validator.js -c pure_funcs=['console.log','console.group','console.groupCollapsed','console.groupEnd'] --comments /^!/ -m -o dist/bootstrap-form-validator.min.js"
   },
   "author": "apalfrey & luc122c",
   "license": "ISC",
