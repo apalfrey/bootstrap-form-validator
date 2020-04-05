@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "jQuery-based form validator for Bootstrap 3 and 4",
   "main": "dist/bootstrap-form-validator.js",
+  "files": [
+    "dist/bootstrap-form-validator.js",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "compile": "npm-run-all move minify",
     "move": "cpy src/*.js dist",
